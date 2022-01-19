@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.addingNumber {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 30px;
+  box-shadow: black;
+  color: black;
+}
+
+.button {
+  color: rgb(19, 18, 18);
+  font-style: italic;
+  font-weight: 800;
+  font-size: large;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +29,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+  background-color: #1f011a3f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
